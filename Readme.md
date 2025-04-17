@@ -1,12 +1,14 @@
-# E-commerce Clone
 
-A full-stack, responsive e-commerce web application built using the MERN stack. It features user authentication with JWT, dynamic product loading from the Platzi Fake Store API, cart and checkout functionality, and styled using Tailwind CSS.
+
+# Shopi
+A e-commerce platform built with MERN stack (MongoDB, Express.js, React.js, Node.js) that provides a seamless shopping experience with user authentication, product management, and order processing. 
+
 
 ## Tech Stack
 
 **Frontend**:
 
-- React (Vite)
+- React Js
 - Tailwind CSS
 
 **Backend**:
@@ -22,8 +24,8 @@ A full-stack, responsive e-commerce web application built using the MERN stack. 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Manibingi/E-Commerce.git
-cd E-Commerce
+git clone https://github.com/livan116/E-Commerce-api.git
+cd E-Commerce-api
 ```
 
 ### 2. Setup Backend
@@ -36,21 +38,21 @@ npm install
 **Create .env file**:
 
 ```env
+PORT=your_port
 MONGODB_URI=mongodb://localhost:27017/ecommerce
 JWT_SECRET=your_jwt_secret
-PORT=your_port
 ```
 
 **Start the backend**:
 
 ```bash
-nodemon index.js
+node index.js
 ```
 
 ### 2. Setup Frontend
 
 ```bash
-cd ../client
+cd client
 npm install
 ```
 
